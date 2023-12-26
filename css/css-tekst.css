@@ -4,16 +4,26 @@ body {
     color: #222222;
 }
 
-.nav {
-    background-color: #ffd602;
-}
-
 a {
     color: #dadcde;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    background-color: #ffd602;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
 }
 
 .nav a {
     color: #231F20;
+    letter-spacing: 0.1em;
 }
 
 .nav a:hover {
@@ -32,20 +42,28 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-size: 3rem;
     font-weight: bold;
 }
 
 blockquote {
-    font-family: Georgia;
-    background-color: white;
+    background: white;
     color: rgb(255, 99, 71);
-}
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
 
 .speciaal {
     background-color: #231F20;
     color: #ffd602;
 }
 
-.speciaal h2 {
-    color: white;
+li {
+    line-height: 1.5;
+}
+
+p {
+    line-height: 2;
 }
