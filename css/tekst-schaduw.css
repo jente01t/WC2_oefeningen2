@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1.one {
+    color: white;
+    text-shadow: 10px 5px 15px black;
+}
+
+h1.two {
+    background-color: black;
+    color: black;
+    text-shadow: 0px 0px 3px white;
+}
+
+h1.tree {
+    text-shadow: -0.5em -0.5em 0px tomato;
+}
+
+h1.four {
+    background-color: #333;
+    text-shadow: 0 0 10px lime; 
+}
+
+h1.five {
+    background-color: aqua;
+    font-size: 5em;
+    text-shadow: -0.1em 0.1em 0em #00e6e6, -0.2em 0.2em 0em #01cccc, -0.3em 0.3em 0em #00bdbd;
+}
+
+h1.six {
+    color: yellow;
+    background-color: rgba(173, 0, 0, 0.66);
+    text-shadow: -8em 0em 0em black, 8em 0em 0em red;
+}
